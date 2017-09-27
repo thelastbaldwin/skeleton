@@ -1,0 +1,25 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "basic boilerplate like jsfiddle",
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/thelastbaldwin/skeleton.git"
+  },
+  "author": {
+    "name": "Steve Minor",
+    "url": "http://steveminor.net"
+  },
+  "main": "index.js",
+  "scripts": {
+    "server": "browser-sync start --server 'src' -f 'src/**/*.html, src/**/*.js,src/**/*.css' --serveStatic 'src'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
